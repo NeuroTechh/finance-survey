@@ -4,13 +4,9 @@ import Script from "next/script";
 export default function Home() {
   return (
     <>
-    
-   
-        <Script async src="https://tally.so/widgets/embed.js"></Script>
-        <style type="text/css">
-  
-    </style>
-    
+      <Script async src="https://tally.so/widgets/embed.js"></Script>
+      <style type="text/css"></style>
+
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <iframe
           data-tally-src="https://tally.so/r/mOP97p?transparentBackground=0"
@@ -22,7 +18,6 @@ export default function Home() {
           title="Neurotechh Finance"
         ></iframe>
       </main>
-
     </>
   );
 }
